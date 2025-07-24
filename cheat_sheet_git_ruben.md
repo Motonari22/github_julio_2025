@@ -12,7 +12,7 @@
 ## git push: envía toda la informacion
 ## git pull: me trae la informacion
 ## git switch: cambio de rama
-## .gitignore: creo este archivo para que no me suba las carpetas locales .idea y .
+## .gitignore: creo este archivo para que no me suba las carpetas locales .idea y .git
 ## pull request: hace una comparacion para ver que no haya un conflicto con la rama principal.
 
 
