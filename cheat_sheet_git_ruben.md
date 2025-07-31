@@ -110,7 +110,7 @@ El tachado usa dos virguillas. ~~Tacha esto~~.
 
 ```
 # Listas
-En este ejemplo, los espacios al inicio y al final se muestran con puntos: ⋅)
+En este ejemplo, los espacios al inicio y al final se muestran con puntos:
 ```
 1. Primer elemento de lista ordenada
 2. Otro elemento
@@ -200,7 +200,7 @@ Un poco de texto para mostrar que los enlaces de referencia pueden ir al final.
 Aquí está nuestro logo (pasa el cursor para ver el texto del título):
 
 Estilo en línea: 
-![texto alternativo](https://github.com/AndreiGatoCB/repo_curso_git_github/blob/main/Logo.png "Logo Title Text 1")
+![Logo](https://www.pngwing.com/es/free-png-dfpbl "Logo")
 
 Estilo de referencia: 
 ![texto alternativo][logo]
@@ -210,7 +210,7 @@ Estilo de referencia:
 Aquí está nuestro logo (pasa el cursor para ver el texto del título):
 
 Estilo en línea: 
-![texto alternativo](https://github.com/AndreiGatoCB/repo_curso_git_github/blob/main/Logo.png "Logo Title Text 1")
+![Logo](https://www.pngwing.com/es/free-png-dfpbl "Logo")
 
 Estilo de referencia: 
 ![texto alternativo][logo]
@@ -391,13 +391,11 @@ Esta línea solo está separada por un único salto de línea, así que es una l
 
 # Vídeos de youtube
 ```
-[![Las cuatro estaciones](https://i.ytimg.com/
-vi/7DBIR30ks64/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-
-AH-CYAC0AWKAgwIABABGH8gNigaMA8=&rs=AOn4CLCI4ggTOLGGLiUc2p98WhMyuD-h0w)]
-(https://www.youtube.com/watch?v=7DBIR30ks64&t)
+[![Las cuatro estaciones](https://www.pngwing.com/es/free-png-yspun)](https://www.youtube.com/watch?v=7DBIR30ks64&t)
+
 ```
 
-[![Las cuatro estaciones](https://i.ytimg.com/vi/7DBIR30ks64/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGH8gNigaMA8=&rs=AOn4CLCI4ggTOLGGLiUc2p98WhMyuD-h0w)](https://www.youtube.com/watch?v=7DBIR30ks64&t)
+[![Las cuatro estaciones](https://www.pngwing.com/es/free-png-yspun)](https://www.youtube.com/watch?v=7DBIR30ks64&t)
 
 
 
