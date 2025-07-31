@@ -109,9 +109,8 @@ Combinado con **asteriscos y _guiones bajos_**.
 El tachado usa dos virguillas. ~~Tacha esto~~.
 
 ```
-
 # Listas
-Los espacios al inicio y al final se muestran con puntos: 
+En este ejemplo, los espacios al inicio y al final se muestran con puntos: ⋅)
 ```
 1. Primer elemento de lista ordenada
 2. Otro elemento
@@ -129,6 +128,26 @@ Los espacios al inicio y al final se muestran con puntos:
 - O guiones
 + O signos de más
 ```
+1. Primer elemento de lista ordenada
+2. Otro elemento
+   
+    * Sub-lista sin ordenar
+    * Sub-lista sin ordenar2
+1. Los números reales no importan, solo que sea un número
+   
+    1. Sub-lista ordenada
+    2. Sub-lista ordenada2
+
+3. Y otro elemento
+  Puedes tener párrafos con sangría adecuada dentro de los elementos de la lista. Observa la línea en blanco arriba y los espacios iniciales (al menos uno, pero usaremos tres aquí para alinear el Markdown sin procesar).
+
+   Para tener un salto de línea sin un párrafo, necesitarás usar dos espacios al final.⋅⋅
+   Nota que esta línea está separada, pero dentro del mismo párrafo.⋅⋅
+   (Esto es contrario al comportamiento típico de GFM, donde los espacios finales no son necesarios).
+
+* La lista sin ordenar puede usar asteriscos
+- O guiones
++ O signos de más
 
 # Enlaces
 ```
@@ -154,7 +173,27 @@ Un poco de texto para mostrar que los enlaces de referencia pueden ir al final.
 [1]: http://slashdot.org  
 [mismo texto del enlace]: http://www.reddit.com
 ```
+[Soy un enlace en línea](https://www.google.com)
 
+[Soy un enlace con título](https://www.google.com "Página principal de Google")
+
+[Soy un enlace de referencia][Texto de referencia no sensible a mayúsculas o minúsculas]
+
+[Soy una referencia relativa a un archivo del repositorio](libro_tyr.csv)
+
+[Puedes usar números para las definiciones de enlaces de referencia][1]
+
+O dejarlo en blanco y usar el [mismo texto del enlace].
+
+Las URL y las URL entre paréntesis angulares se convierten automáticamente en enlaces.
+http://www.example.com o <http://www.example.com> y a veces 
+example.com (pero no en GitHub, por ejemplo).
+
+Un poco de texto para mostrar que los enlaces de referencia pueden ir al final.
+
+[texto de referencia no sensible a mayúsculas o minúsculas]: https://www.mozilla.org  
+[1]: http://slashdot.org  
+[mismo texto del enlace]: http://www.reddit.com
 
 # Imágenes
 ```
@@ -168,12 +207,29 @@ Estilo de referencia:
 
 [logo]: https://github.com/AndreiGatoCB/repo_curso_git_github/blob/main/Logo_blanco.png "Logo Title Text 2"
 ```
+Aquí está nuestro logo (pasa el cursor para ver el texto del título):
+
+Estilo en línea: 
+![texto alternativo](https://github.com/AndreiGatoCB/repo_curso_git_github/blob/main/Logo.png "Logo Title Text 1")
+
+Estilo de referencia: 
+![texto alternativo][logo]
+
+Estilo de referencia: 
+![texto alternativo][logo github]
+
+[logo github]: https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png "logo de github"
+[logo]: https://github.com/AndreiGatoCB/repo_curso_git_github/blob/main/Logo_blanco.png "Logo Title Text 2"
 
 # Resaltado de Código y Sintaxis
 ```
 El código en línea se escribe con `acentos graves alrededor`.
 ```
+El código en línea se escribe con `acentos graves alrededor`.
 
+Blocks of code are either fenced by lines with three back-ticks ` ``` `, or are indented with four spaces. I recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.
+
+```
 ```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
@@ -222,6 +278,18 @@ También puedes usar palabras para ajustarte más a tu estilo de escritura[^note
     Las notas al pie nombradas seguirán renderizándose con números en lugar del texto, pero permiten una identificación y vinculación más fácil.
     Esta nota al pie también se ha hecho con una sintaxis diferente usando 4 espacios para las nuevas líneas.
 ```
+Aquí hay una nota al pie simple[^1].
+
+Una nota al pie también puede tener varias líneas[^2].  
+
+También puedes usar palabras para ajustarte más a tu estilo de escritura[^note].
+
+[^1]: Mi referencia.
+[^2]: Cada nueva línea debe ir precedida de 2 espacios.  
+  Esto permite tener una nota al pie con múltiples líneas.
+[^note]:
+    Las notas al pie nombradas seguirán renderizándose con números en lugar del texto, pero permiten una identificación y vinculación más fácil.
+    Esta nota al pie también se ha hecho con una sintaxis diferente usando 4 espacios para las nuevas líneas.
 
 # Tablas
 Las tablas no son parte de la especificación básica de Markdown, pero son parte de GFM y Markdown Here las soporta. Son una forma fácil de agregar 
@@ -323,10 +391,14 @@ Esta línea solo está separada por un único salto de línea, así que es una l
 
 # Vídeos de youtube
 ```
-[![Derechos de autor](https://www.youtube.com/shorts/A-yQikcVwnM)
+[![Las cuatro estaciones](https://i.ytimg.com/
+vi/7DBIR30ks64/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-
+AH-CYAC0AWKAgwIABABGH8gNigaMA8=&rs=AOn4CLCI4ggTOLGGLiUc2p98WhMyuD-h0w)]
+(https://www.youtube.com/watch?v=7DBIR30ks64&t)
 ```
 
-[![Derechos de autor](https://www.youtube.com/shorts/A-yQikcVwnM)
+[![Las cuatro estaciones](https://i.ytimg.com/vi/7DBIR30ks64/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGH8gNigaMA8=&rs=AOn4CLCI4ggTOLGGLiUc2p98WhMyuD-h0w)](https://www.youtube.com/watch?v=7DBIR30ks64&t)
+
 
 
 
