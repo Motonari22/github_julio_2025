@@ -210,7 +210,7 @@ Estilo de referencia:
 Aquí está nuestro logo (pasa el cursor para ver el texto del título):
 
 Estilo en línea: 
-![Logo](https://www.pngwing.com/es/free-png-dfpbl "Logo")
+![Logos](https://cdn-icons-png.flaticon.com/512/152/152751.png "Logo")
 
 Estilo de referencia: 
 ![texto alternativo][logo]
@@ -395,7 +395,7 @@ Esta línea solo está separada por un único salto de línea, así que es una l
 
 ```
 
-[![Las cuatro estaciones](https://www.pngwing.com/es/free-png-yspun)](https://www.youtube.com/watch?v=7DBIR30ks64&t)
+[![Las cuatro estaciones](https://cdn-icons-png.flaticon.com/512/152/152751.png)](https://www.youtube.com/watch?v=7DBIR30ks64&t)
 
 
 
